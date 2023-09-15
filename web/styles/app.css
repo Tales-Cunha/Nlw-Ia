@@ -1,0 +1,40 @@
+#app {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#app > h1 {
+    color: #996DFF;
+    font-size: 2.5rem;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+#app > img {
+    display: block;
+    margin: 0 auto;
+    width: 10rem;
+    height: auto;
+}
+
+#app .placeholder{
+    color: #71718a;
+    user-select: none;
+    
+}
+
+#app > h2{
+    align-self: flex-start;
+}
+
+#app > p{
+    align-self: flex-start;
+    margin-top: -5px;
+}
+

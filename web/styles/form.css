@@ -1,0 +1,38 @@
+#form {
+    margin-top: 64px;
+    display: flex;
+    gap: 10px;
+    margin-bottom:64px;
+}
+
+
+#form > input {
+    width: 450px;
+    height: 48px;
+    color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0 12px;
+    font-size: 16px;
+    background-color: #202024;
+}
+
+#form > input:focus {
+    outline: none;
+    border: 2px solid #7159c1;
+}
+
+#form > input:vaild {
+    background-color: #202024;
+}
+
+#form > button {
+    width: 50px;
+    height: 48px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #7159c1;
+    color: #fff;
+    cursor: pointer;
+}
